@@ -35,3 +35,17 @@ PRODUCT_RESTRICT_VENDOR_FILES := true
 
 $(call inherit-product, device/lge/bullhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/bullhead/bullhead-vendor.mk)
+$(call inherit-product, vendor/aosp/common.mk)
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
+PRODUCT_PACKAGE += \
+  Launcher3
+
+# Override build properties.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bullhead \
+    BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.2/N2G47W/3938523:user/release-keys" \
+    PRIVATE_BUILD_DESC="bullhead-user 7.1.2 N2G47W 3938523 release-keys"
