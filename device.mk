@@ -450,10 +450,6 @@ PRODUCT_PACKAGES += \
     power.bullhead \
     thermal.bullhead
 
-# AOSPLinks
-PRODUCT_PACKAGES += \
-    AOSPLinks
-
 # Modem debugger/misc
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 ifeq (,$(filter aosp_bullhead, $(TARGET_PRODUCT)))
