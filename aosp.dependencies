@@ -1,6 +1,6 @@
 [
   {
-    "remote":      "aex-devices",
+    "remote":      "github",
     "repository":     "kernel_lge_bullhead",
     "target_path":      "kernel/lge/bullhead",
     "branch":     "7.x"
