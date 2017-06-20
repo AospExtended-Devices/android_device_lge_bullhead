@@ -4,5 +4,11 @@
     "repository":     "kernel_lge_bullhead",
     "target_path":      "kernel/lge/bullhead",
     "branch":     "7.x"
+  },
+  {
+    "remote":      "github",
+    "repository":     "vendor_lge_bullhead",
+    "target_path":      "vendor/lge/bullhead",
+    "branch":     "7.x"
   }
 ]
