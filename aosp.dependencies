@@ -4,11 +4,5 @@
     "repository":     "kernel_lge_bullhead",
     "target_path":      "kernel/lge/bullhead",
     "branch":     "7.x"
-  },
-  {
-    "remote":     "aex-devices",
-    "repository":     "proprietary_vendor_lge",
-    "target_path":      "vendor/lge",
-    "branch":     "7.x"
   }
 ]
