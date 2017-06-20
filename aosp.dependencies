@@ -1,14 +1,14 @@
 [
   {
-    "remote":      "github",
-    "repository":     "LineageOS/android_kernel_lge_bullhead",
+    "remote":      "aex-devices",
+    "repository":     "kernel_lge_bullhead",
     "target_path":      "kernel/lge/bullhead",
-    "branch":     "cm-14.1"
+    "branch":     "7.x"
   },
   {
-    "remote":     "github",
-    "repository":     "TheMuppets/proprietary_vendor_lge",
+    "remote":     "aex-devices",
+    "repository":     "proprietary_vendor_lge",
     "target_path":      "vendor/lge",
-    "branch":     "cm-14.1"
+    "branch":     "7.x"
   }
 ]
