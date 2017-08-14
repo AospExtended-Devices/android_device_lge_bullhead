@@ -39,8 +39,7 @@ $(call inherit-product-if-exists, vendor/lge/bullhead/bullhead-vendorimage.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_PACKAGE += \
   Launcher3
