@@ -201,6 +201,13 @@ PRODUCT_PACKAGES += \
     lights.vts \
     android.hardware.light@2.0-impl
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
